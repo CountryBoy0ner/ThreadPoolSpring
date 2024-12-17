@@ -1,14 +1,10 @@
 package ehu.thread.ThreadPool.service;
 
-
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.concurrent.TimeUnit;
 
 public class ProcessingState implements ClientState {
-
      private static final Logger logger = (Logger) LogManager.getLogger(ProcessingState.class);
 
     @Override
